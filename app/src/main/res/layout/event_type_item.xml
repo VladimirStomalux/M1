@@ -13,7 +13,7 @@
         android:layout_gravity="center_vertical"
         android:contentDescription="@string/event_type"
         android:padding="4dp"
-        android:src="@drawable/ic_baseline_circle_24"
+        android:src="@drawable/ic_baseline_cast_connected_24"
         app:tint="@color/online_color" />
 
     <TextView

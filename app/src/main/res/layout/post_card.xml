@@ -112,7 +112,7 @@
             android:layout_gravity="center_vertical"
             android:layout_margin="8dp"
             android:contentDescription="@string/event_type"
-            android:src="@drawable/ic_baseline_circle_24"
+            android:src="@drawable/ic_baseline_cast_connected_24"
             app:layout_constraintBottom_toBottomOf="@id/eventDate"
             app:layout_constraintStart_toEndOf="@id/eventDate"
             app:layout_constraintTop_toBottomOf="@id/content"
@@ -164,7 +164,7 @@
             <FrameLayout
                 android:id="@+id/videoPlayerContainer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="115dp"
                 android:layout_marginTop="@dimen/common_spacing"
                 android:visibility="gone"
                 tools:visibility="visible">
@@ -179,10 +179,9 @@
 
         <ImageView
             android:id="@+id/attachmentImageView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_width="370dp"
+            android:layout_height="97dp"
             android:layout_marginTop="@dimen/common_spacing"
-            android:layout_marginBottom="@dimen/common_spacing"
             android:adjustViewBounds="true"
             android:contentDescription="@string/attachment"
             android:visibility="visible"
